@@ -1,0 +1,33 @@
+{
+  "name": "@steelskysoftware/facade-crypto",
+  "version": "1.0.0",
+  "author": "steelskysoftware",
+  "license": "ISC",
+  "description": "Node utilities for encrypting and decrypting various forms of input content.",
+  "keywords": [
+    "tools",
+    "utils",
+    "helpers",
+    "utilities",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/steelskysoftware/facade-crypto/issues"
+  },
+  "homepage": "https://github.com/steelskysoftware/facade-crypto#readme",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "bin": {
+    "facrypto": "./bin/facrypto.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "prompt": "^1.2.0",
+    "yargs": "^17.0.0"
+  }
+}
